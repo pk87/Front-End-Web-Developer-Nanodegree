@@ -1,0 +1,169 @@
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Book Antiqua", cursive;
+    font-size: 10px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Book Antiqua",Helvetica,"Helvetica Neue", sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+hr {
+    height: 8px;
+    background-color: #3242A3FF;
+}
+
+h1 {
+    text-align: right;
+    font-size: 5em;
+    color: #7c7f7fff;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: right;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.25em;
+    color: red;
+    margin-top: 0;
+}
+
+h3{
+    text-align: center;
+    font-size: 3em;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+    color: #1c1d1dff;
+    font-size: 1.5em;
+}
+
+li {
+    padding: 3px;
+    }    
+
+
+.divider {
+    height: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-banner {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.img-banner {
+    width: auto;
+    display: block;
+    margin-top: 5px;
+}
+
+.textfooter {
+    color: #0f1010ff;
+    flex-wrap: wrap;
+}
+
+.img-main {
+    margin-top: 15px;
+}
+
+.project-desc {
+    text-align: center;
+}
+
+.footer {
+    background-color: #126;
+    color: #e9efefff;
+    margin:0;
+}
+
+.col-4 {
+    width: 33.333333333%;
+}
+.col-8 {
+    width: 66.66666666%;
+}
+
+
+/*media for nexus*/
+@media screen and (max-width:768px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #afc8d6ff;
+    }
+    .img-banner {
+        display: block;
+    }
+    .img-main {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .text-banner {
+        width: 50%;
+        font-size: 1.5em;
+        margin-right: 0;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    a {
+        font-size: 1em;
+    }
+}
+
+/*media for ipad*/
+@media  screen and (min-width: 992px) {
+    .container {
+        width: 992px;
+        font-size: 1em;
+        background-color: #3cc;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/*media for desktop*/
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        font-size: 100%;
+        background-color: #dbceb6ff;
+    }
+}
+
