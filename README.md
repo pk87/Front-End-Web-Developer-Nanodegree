@@ -6,3 +6,5 @@ This is Project 1 of FEND by Udacity. Build your portfolio website. It covers re
 Responsive design has becoming very significant in reaching out to wide range of audience as more and more people going mobile in every imaginable way possible.
 
 exciting time indeed!
+
+![](image/Paul%20First%20Project%201%20-%20FEND.png)
